@@ -1,0 +1,37 @@
+<?php
+
+$userid = $_POST['DOB'];
+$username = $_POST['name'];
+$userphone = $_POST['phone'];
+
+
+$link = mysqli_connect('doctordb.cgiij9emrd69.ap-south-1.rds.amazonaws.com', 'iraj', 'gaminfreak123','doctordb');
+
+// Check connection
+if (mysqli_connect_errno())
+  {
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  }
+
+// Check if server is alive
+if (mysqli_ping($link))
+  {
+  echo "Connection is ok!";
+  }
+else
+  {
+  echo "Error: ". mysqli_error($link);
+  }
+
+
+
+
+ mysqli_query($link,"INSERT INTO docdata (`useid`, `name`, `phone`) VALUES ('$userid', '$username', '$userphone')") 
+ or die(mysqli_error($link));
+
+
+  echo "Entered data successfully\n";
+
+
+mysqli_close($link);
+?>

@@ -1,0 +1,36 @@
+<!--
+  Generated template for the FirstPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-header padding>
+
+  <ion-navbar>
+    <ion-title id="title" center text-center>#app_name#</ion-title>
+  </ion-navbar>
+  
+</ion-header>
+ 
+
+<ion-content center text-center class="content">
+  <ion-card-header>
+    <ion-card-title >Are you a Doctor?</ion-card-title>
+  </ion-card-header>
+  <ion-card-content padding>
+  
+    <button ion-button [navPush]="loginPage">Go To Doctor Portal</button>
+  </ion-card-content>
+
+  <ion-card-header>
+    <ion-card-title>Are you a Patient?</ion-card-title>
+  </ion-card-header>
+  
+  <ion-card-content>  
+    <button ion-button [navPush]="loginPage1">Go To Patient Portal</button>
+  </ion-card-content>
+
+
+
+</ion-content>

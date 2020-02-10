@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "mlcap175158a9",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "api7221c151",
+    "apiName": "api7221c151",
+    "functionArns": [
+        {
+            "lambdaFunction": "mlcap175158a9"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-mlcap-mltestapp-160650-authRole",
+        "unAuthRoleName": "amplify-mlcap-mltestapp-160650-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "mlcap175158a9",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

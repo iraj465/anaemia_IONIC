@@ -1,0 +1,15 @@
+{
+    "mltestapp": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-mlcap-mltestapp-160650-authRole",
+            "UnauthRoleArn": "arn:aws:iam::090854937538:role/amplify-mlcap-mltestapp-160650-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::090854937538:role/amplify-mlcap-mltestapp-160650-authRole",
+            "Region": "ap-south-1",
+            "DeploymentBucketName": "amplify-mlcap-mltestapp-160650-deployment",
+            "UnauthRoleName": "amplify-mlcap-mltestapp-160650-unauthRole",
+            "StackName": "amplify-mlcap-mltestapp-160650",
+            "StackId": "arn:aws:cloudformation:ap-south-1:090854937538:stack/amplify-mlcap-mltestapp-160650/237221e0-3d03-11ea-8965-028f38a10716",
+            "AmplifyAppId": "dk0nuw3ra347k"
+        }
+    }
+}
